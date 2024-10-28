@@ -17,6 +17,7 @@ Le but était d'utiliser les données ouvertes de la Métropole Européenne de L
 ## Interface
 
 ![L'interface de l'application est organisée autour de 3 pages, accessibles via des onglets en haut de l'écran. L'utilisateur peut naviguer entre ces onglets :](images/Onglets.jpg "Les 4 onglets de l'application.")
+
 L'interface de l'application est organisée autour de 3 pages, accessibles via des onglets en haut de l'écran. L'utilisateur peut naviguer entre ces onglets :
 
 ### Onglet "Stations"
