@@ -7,6 +7,7 @@ Application mobile simple, utilisant le framework Flutter.
 Réalisée dans le cadre du cours **Compilation et développement d'applications mobiles** (INSA Hauts-de-France, Spécialité Informatique et Cybersécurité, 5ème année).
 
 Le but était d'utiliser les données ouvertes de la Métropole Européenne de Lille (MEL) pour développer une application permettant aux utilisateurs de trouver et de visualiser les stations de vélos en temps réel. L'application intègre des fonctionnalités de recherche, de tri, et de gestion des favoris.
+<img src="images/pageacceuil.jpg" alt="Les 4 onglets de l'application." width="300">
 
 ## Objectifs principaux du projet
 
@@ -42,10 +43,13 @@ Le code couleur pour la disponibilité des stations aide à visualiser rapidemen
 
 L'onglet "Carte" utilise une carte interactive fournie par OpenStreetMap. Elle affiche les stations de vélos et les lieux favoris de l'utilisateur (lorsqu'ils sont activés via l'icône "œil").
 
+<img src="images/Cartes.jpg" alt="Les 4 onglets de l'application." width="300">
+
 ### Affichage des lieux favoris
 
 Lorsqu'un utilisateur appuie sur l'icône "œil", ses lieux favoris sont affichés sur la carte. Un appui sur un lieu favori affiche la liste des stations proches de ce lieu, triées par distance. Pour calculer la distance, l'application utilise la fonction suivante :
 
+<img src="images/Cartes.jpg" alt="Les 4 onglets de l'application." width="300">
 
 
 
@@ -53,8 +57,9 @@ Cette fonction utilise la formule de Haversine pour calculer la distance entre d
 
 ### Onglet "Lieux Favoris"
 L'onglet "Lieux Favoris" permet à l'utilisateur d'ajouter et de gérer des lieux fréquents. Ces lieux peuvent être affichés sur la carte pour vérifier rapidement les stations à proximité.
+<img src="images/Localisation.jpg" alt="Les 4 onglets de l'application." width="300">
 
-Un glissement vers la gauche permet de supprimer un lieu, et l'utilisateur peut également modifier le nom du lieu. L'ordre de la liste est conservé.
+L'utilisateur peut également modifier le nom du lieu. L'ordre de la liste est conservé.
 
 ### Fonctionnalités de tri et de réinitialisation
 
