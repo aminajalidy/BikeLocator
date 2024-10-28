@@ -7,15 +7,16 @@ Application mobile simple, utilisant le framework Flutter.
 Réalisée dans le cadre du cours **Compilation et développement d'applications mobiles** (INSA Hauts-de-France, Spécialité Informatique et Cybersécurité, 5ème année).
 
 Le but était d'utiliser les données ouvertes de la Métropole Européenne de Lille (MEL) pour développer une application permettant aux utilisateurs de trouver et de visualiser les stations de vélos en temps réel. L'application intègre des fonctionnalités de recherche, de tri, et de gestion des favoris.
+
 <img src="images/pageacceuil.jpg" alt="Les 4 onglets de l'application." width="300">
 
-## Objectifs principaux du projet
+### Objectifs principaux du projet
 
 - Acquérir des données distantes et fournir des informations actualisées aux utilisateurs.
 - Permettre aux utilisateurs de rechercher des stations, de trier la liste selon divers critères, et de gérer leurs lieux et stations favoris.
 - Stocker des informations localement (les stations et les lieux favoris de l'utilisateur).
 
-## Interface
+### Interface
 L'interface de l'application est organisée autour de 3 pages, accessibles via des onglets en haut de l'écran. L'utilisateur peut naviguer entre ces onglets :
 
 <img src="images/Onglets.jpg" alt="Les 4 onglets de l'application." width="300">
