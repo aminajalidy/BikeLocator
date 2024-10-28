@@ -16,6 +16,10 @@ Le but était d'utiliser les données ouvertes de la Métropole Européenne de L
 - Permettre aux utilisateurs de rechercher des stations, de trier la liste selon divers critères, et de gérer leurs lieux et stations favoris.
 - Stocker des informations localement (les stations et les lieux favoris de l'utilisateur).
 
+### Format du rendu
+
+Le code source est disponible sur le [dépôt Github](https://github.com/aminajalidy/BikeLocator). Ce fichier README constitue le rapport du projet, et sera fourni au format pdf.  
+
 ### Interface
 L'interface de l'application est organisée autour de 3 pages, accessibles via des onglets en haut de l'écran. L'utilisateur peut naviguer entre ces onglets :
 
