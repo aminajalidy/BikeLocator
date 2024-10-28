@@ -70,17 +70,7 @@ double _calculateDistance(double lat1, double lon1, double lat2, double lon2) {
   return earthRadius * c;
 }
 ```
-Cette méthode utilise les coordonnées géographiques des deux points pour calculer la distance en utilisant la formule suivante :
-
-\[
-\text{distance} = 2 \times \text{earthRadius} \times \arctan2\left(\sqrt{a}, \sqrt{1-a}\right)
-\]
-
-Où \(a\) est défini par :
-
-\[
-a = \sin^2\left(\frac{\Delta \text{latitude}}{2}\right) + \cos(\text{latitude}_1) \times \cos(\text{latitude}_2) \times \sin^2\left(\frac{\Delta \text{longitude}}{2}\right)
-\]
+Cette méthode utilise les coordonnées géographiques des deux points pour calculer la distance.
 
 ### Onglet "Lieux Favoris"
 L'onglet "Lieux Favoris" permet à l'utilisateur d'ajouter et de gérer des lieux fréquents. Ces lieux peuvent être affichés sur la carte pour vérifier rapidement les stations à proximité.
