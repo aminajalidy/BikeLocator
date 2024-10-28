@@ -28,8 +28,8 @@ L'onglet "Stations" présente la liste des stations de vélos. L'utilisateur peu
 - Afficher uniquement les stations favorites.
 - Trier les stations par disponibilité relative.
 - Rechercher une station par son nom à l'aide de la barre de recherche.
-- 
-<img src="images/tri.jpg" alt="Les 4 onglets de l'application." width="300">
+  
+<img src="images/Stations.jpg" alt="Les 4 onglets de l'application." width="300">
 
 ### Code couleur des stations
 
@@ -38,6 +38,8 @@ Le code couleur pour la disponibilité des stations aide à visualiser rapidemen
 - **Noir** : La station n'a pas de vélos disponibles.
 - **Rouge** : La station est presque vide ou pleine (moins de 20% de vélos disponibles).
 - **Vert** : La station a une disponibilité optimale (plus de 20% de vélos disponibles).
+
+<img src="images/triiiiii.jpg" alt="Les 4 onglets de l'application." width="300">  
 
 
 ### Onglet "Carte"
@@ -64,6 +66,7 @@ L'onglet "Lieux Favoris" permet à l'utilisateur d'ajouter et de gérer des lieu
 L'utilisateur peut également modifier le nom du lieu. L'ordre de la liste est conservé.
 
 ### Ajout d'un lieu
+<img src="images/AddLieu.jpg" alt="Les 4 onglets de l'application." width="300">
 
 ### Affichage des parkings autour d'un lieu
 
@@ -78,6 +81,9 @@ Un appui sur un lieu favori permet à l'utilisateur d'avoir un aperçu des stati
 - Par favoris : Affiche uniquement les stations marquées comme favorites.
 - Par disponibilité relative : Trie les stations en fonction de leur ratio vélos/places disponibles, du plus élevé au plus faible.
 - L'utilisateur peut réinitialiser la liste en actualisant les données avec un glissement vers le bas (fonctionnalité pull-to-refresh).
+
+ <img src="images/triFav.jpg" alt="Les 4 onglets de l'application." width="300"> 
+ <img src="images/Favourite.jpg" alt="Les 4 onglets de l'application." width="300">
 
 ### Structure du projet
 
