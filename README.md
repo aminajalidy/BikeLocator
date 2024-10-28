@@ -66,7 +66,7 @@ L'onglet "Lieux Favoris" permet à l'utilisateur d'ajouter et de gérer des lieu
 L'utilisateur peut également modifier le nom du lieu. L'ordre de la liste est conservé.
 
 ### Ajout d'un lieu
-<img src="images/AddLieu.jpg" alt="Les 4 onglets de l'application." width="300">
+<img src="images/AddLieu.png" alt="Les 4 onglets de l'application." width="300">
 
 ### Affichage des parkings autour d'un lieu
 
