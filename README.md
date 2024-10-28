@@ -26,9 +26,8 @@ L'onglet "Stations" présente la liste des stations de vélos. L'utilisateur peu
 - Afficher uniquement les stations favorites.
 - Trier les stations par disponibilité relative.
 - Rechercher une station par son nom à l'aide de la barre de recherche.
-
-![Des Stations affichés dans la liste.](images/tri.jpg "Des Stations affichés dans la liste.")
-
+- 
+<img src="images/tri.jpg" alt="Les 4 onglets de l'application." width="300">
 ### Code couleur des stations
 
 Le code couleur pour la disponibilité des stations aide à visualiser rapidement l'état des stations de vélos :
