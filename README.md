@@ -58,9 +58,16 @@ Cette fonction utilise la formule de Haversine pour calculer la distance entre d
 
 ### Onglet "Lieux Favoris"
 L'onglet "Lieux Favoris" permet à l'utilisateur d'ajouter et de gérer des lieux fréquents. Ces lieux peuvent être affichés sur la carte pour vérifier rapidement les stations à proximité.
+
 <img src="images/LieuxFav.jpg" alt="Les 4 onglets de l'application." width="300">
 
 L'utilisateur peut également modifier le nom du lieu. L'ordre de la liste est conservé.
+
+### Affichage des parkings autour d'un lieu
+
+Un appui sur un lieu favori permet à l'utilisateur d'avoir un aperçu des stations environnants. Il s'agit de la même interface que dans l'onglet "Stations", à la différence que les parkings classés selon leur distance au lieu lui-même.
+
+<img src="images/Stationprès.jpg" alt="Les 4 onglets de l'application." width="300">
 
 ### Fonctionnalités de tri et de réinitialisation
 
