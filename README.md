@@ -50,13 +50,37 @@ L'onglet "Carte" utilise une carte interactive fournie par OpenStreetMap. Elle a
 
 ### Affichage des lieux favoris
 
-Lorsqu'un utilisateur appuie sur l'icône "œil", ses lieux favoris sont affichés sur la carte. Un appui sur un lieu favori affiche la liste des stations proches de ce lieu, triées par distance. Pour calculer la distance, l'application utilise la fonction suivante :
+Lorsqu'un utilisateur appuie sur l'icône "œil", ses lieux favoris sont affichés sur la carte. Un appui sur un lieu favori affiche la liste des stations proches de ce lieu, triées par distance. 
 
 <img src="images/Localisation.jpg" alt="Les 4 onglets de l'application." width="300">
 
 
+## Calcul de la distance
 
-Cette fonction utilise la formule de Haversine pour calculer la distance entre deux points géographiques sur la surface de la Terre.
+L'application utilise la formule de Haversine pour calculer la distance entre deux points géographiques sur la surface de la Terre. La méthode suivante, située dans la classe `NearbyStationsScreen` du fichier `screens`, permet d'effectuer ce calcul :
+
+```dart
+double _calculateDistance(double lat1, double lon1, double lat2, double lon2) {
+  const double earthRadius = 6371; // Rayon de la Terre en km
+  double dLat = (lat2 - lat1) * (pi / 180.0);
+  double dLon = (lon2 - lon1) * (pi / 180.0);
+  double a = (sin(dLat / 2) * sin(dLat / 2)) +
+      cos(lat1 * (pi / 180.0)) * cos(lat2 * (pi / 180.0)) * (sin(dLon / 2) * sin(dLon / 2));
+  double c = 2 * atan2(sqrt(a), sqrt(1 - a));
+  return earthRadius * c;
+}
+```
+Cette méthode utilise les coordonnées géographiques des deux points pour calculer la distance en utilisant la formule suivante :
+
+\[
+\text{distance} = 2 \times \text{earthRadius} \times \arctan2\left(\sqrt{a}, \sqrt{1-a}\right)
+\]
+
+Où \(a\) est défini par :
+
+\[
+a = \sin^2\left(\frac{\Delta \text{latitude}}{2}\right) + \cos(\text{latitude}_1) \times \cos(\text{latitude}_2) \times \sin^2\left(\frac{\Delta \text{longitude}}{2}\right)
+\]
 
 ### Onglet "Lieux Favoris"
 L'onglet "Lieux Favoris" permet à l'utilisateur d'ajouter et de gérer des lieux fréquents. Ces lieux peuvent être affichés sur la carte pour vérifier rapidement les stations à proximité.
