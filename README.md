@@ -132,6 +132,7 @@ Dépendances
 - Implémentation des fonctionnalités
 
 -- L'état de l'application est géré avec le package provider via un ChangeNotifier.
+
 -- La liste des stations, des lieux favoris et l'état de la localisation de l'utilisateur sont tous contenus dans le DataModel.
 
 -- Le tri et le filtrage sont effectués en manipulant les listes _stations et _filteredStations, avec des critères de filtrage par nom     ou par état de favori.
