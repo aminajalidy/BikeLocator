@@ -50,7 +50,7 @@ L'onglet "Carte" utilise une carte interactive fournie par OpenStreetMap. Elle a
 
 Lorsqu'un utilisateur appuie sur l'icône "œil", ses lieux favoris sont affichés sur la carte. Un appui sur un lieu favori affiche la liste des stations proches de ce lieu, triées par distance. Pour calculer la distance, l'application utilise la fonction suivante :
 
-<img src="images/Cartes.jpg" alt="Les 4 onglets de l'application." width="300">
+<img src="images/Localisation.jpg" alt="Les 4 onglets de l'application." width="300">
 
 
 
@@ -58,7 +58,7 @@ Cette fonction utilise la formule de Haversine pour calculer la distance entre d
 
 ### Onglet "Lieux Favoris"
 L'onglet "Lieux Favoris" permet à l'utilisateur d'ajouter et de gérer des lieux fréquents. Ces lieux peuvent être affichés sur la carte pour vérifier rapidement les stations à proximité.
-<img src="images/Localisation.jpg" alt="Les 4 onglets de l'application." width="300">
+<img src="images/LieuxFav.jpg" alt="Les 4 onglets de l'application." width="300">
 
 L'utilisateur peut également modifier le nom du lieu. L'ordre de la liste est conservé.
 
