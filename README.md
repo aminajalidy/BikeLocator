@@ -110,20 +110,22 @@ Dépendances
 
 ### Les packages utilisés incluent :
 
-provider : Pour gérer l'état de l'application.
-geolocator : Pour gérer la localisation de l'utilisateur.
-http : Pour les requêtes HTTP vers l'API des stations.
-flutter_map et latlong2 : Pour l'affichage des cartes et des coordonnées.
-shared_preferences : Pour sauvegarder les données localement.
-Implémentation des fonctionnalités
+- provider : Pour gérer l'état de l'application.
+- geolocator : Pour gérer la localisation de l'utilisateur.
+- http : Pour les requêtes HTTP vers l'API des stations.
+- flutter_map et latlong2 : Pour l'affichage des cartes et des coordonnées.
+- shared_preferences : Pour sauvegarder les données localement.
+- Implémentation des fonctionnalités
 
-L'état de l'application est géré avec le package provider via un ChangeNotifier. La liste des stations, des lieux favoris et l'état de la localisation de l'utilisateur sont tous contenus dans le DataModel.
+-- L'état de l'application est géré avec le package provider via un ChangeNotifier.
+-- La liste des stations, des lieux favoris et l'état de la localisation de l'utilisateur sont tous contenus dans le DataModel.
 
-Le tri et le filtrage sont effectués en manipulant les listes _stations et _filteredStations, avec des critères de filtrage par nom ou par état de favori. Le code couleur et le calcul de distance sont également gérés dans le DataModel pour simplifier la mise à jour des états.
+-- Le tri et le filtrage sont effectués en manipulant les listes _stations et _filteredStations, avec des critères de filtrage par nom    ou par état de favori.
+-- Le code couleur et le calcul de distance sont également gérés dans le DataModel pour simplifier la mise à jour des états.
 
 ### Pistes d'amélioration
 
-Fonctionnalités à améliorer
-Ajouter un tutoriel explicatif pour l'utilisateur.
-Proposer des suggestions lors de l'ajout de lieux favoris.
-Améliorer la gestion de la localisation et l'interface de la carte avec des boutons de zoom.
+Fonctionnalités à améliorer:
+- Ajouter un tutoriel explicatif pour l'utilisateur.
+- Proposer des suggestions lors de l'ajout de lieux favoris.
+- Améliorer la gestion de la localisation et l'interface de la carte avec des boutons de zoom.
